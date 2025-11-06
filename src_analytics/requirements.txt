@@ -1,0 +1,9 @@
+# kagglehub>=0.3.10
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+ipykernel
+ipympl
+ipywidgets

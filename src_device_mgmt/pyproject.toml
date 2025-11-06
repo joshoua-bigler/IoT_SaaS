@@ -1,0 +1,19 @@
+[project]
+name         = "device_mgmt"
+description  = "Internet of Things Device Management"
+authors      = [{name = "Joshoua Bigler"}]
+version      = "0.0.1"
+dependencies = [
+  "iot-libs>=0.0.8",
+  "fastapi>=0.115.2",
+  "pandas>=2.2.3",
+  "python-dotenv>=1.0.1",
+  "uvicorn>=0.31.1",
+  "websockets>=13.1"
+]
+
+[tool.setuptools]
+package-dir  = { "" = "." }
+packages = { find = { include = ["device_mgmt*"] } } 
+[tool.pytest.ini_options]
+testpaths = ["test"]

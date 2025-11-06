@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/empty.proto";
+
+service Hub {
+  rpc SendNumericScalarValues(stream NumericScalarValues) returns (google.protobuf.Empty) {}
+  rpc SendDeviceStatus(DeviceStatus) returns (google.protobuf.Empty) {}
+}
+
+enum Status {
+  SUCCESS = 0; 
+  FAILED = 1; 
+  PENDING = 2;
+}
+
+
+message DeviceStatus{
+  string tenant_identifier = 1;
+  string device_identifier = 2;
+  int32  status = 3;
+  google.protobuf.Timestamp timestamp = 4;
+}
+
+message NumericScalarValues {
+  string tenant_identifier = 1;
+  string device_identifier = 2;
+  string metric_identifier = 3;
+  string path = 4;
+  double value = 5;
+  string unit = 6;
+  string display_name = 7;
+  google.protobuf.Timestamp timestamp = 8;  
+}
+
+message Response {
+  Status status = 1;
+  string message = 2;
+}

@@ -1,0 +1,16 @@
+[project]
+name         = "db-manager"
+description  = "Internet of Things Database"
+authors      = [{name = "Joshoua Bigler"}]
+version      = "0.0.1"
+dependencies = [
+  "iot-libs>=0.0.8",
+  "python-dotenv>=1.0.1",
+  "pandas>=2.2.3"
+]
+[tool.setuptools]
+package-dir  = { "" = "." }
+packages = { find = { include = ["db_manager*"] } } 
+
+[tool.pytest.ini_options]
+testpaths = ["test"]

@@ -1,0 +1,18 @@
+[project]
+name         = "hub"
+description  = "Internet of Things Cloud Hub"
+authors      = [{name = "Joshoua Bigler"}]
+version      = "0.0.1"
+dependencies = [
+  "iot-libs>=0.0.8",
+  "python-dotenv>=1.0.1",
+  "pandas>=2.2.3",
+  "grpcio==1.68.1",
+  "grpcio-tools==1.68.1"
+]
+
+[tool.setuptools]
+package-dir  = { "" = "." }
+packages = { find = { include = ["hub*"] } } 
+[tool.pytest.ini_options]
+testpaths = ["test"]

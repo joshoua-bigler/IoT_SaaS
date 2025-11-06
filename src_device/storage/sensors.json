@@ -1,0 +1,161 @@
+[
+  {
+    "sensor_identifier": "ambient",
+    "sensor_type": "humidity",
+    "path": "conveyor.motor1",
+    "sampling_interval": 10,
+    "data": {
+      "offset": 0.5,
+      "disturbances": [
+        {
+          "disturbance_type": "white_noise",
+          "parameters": {
+            "mean": 0,
+            "std": 0.5
+          }
+        },
+        {
+          "disturbance_type": "random_spike",
+          "parameters": {
+            "probability": 0.2,
+            "spike_range": [
+              -10,
+              10
+            ]
+          }
+        },
+        {
+          "disturbance_type": "drift",
+          "parameters": {
+            "rate": 0.0,
+            "start": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "sensor_identifier": "ambient",
+    "sensor_type": "temperature",
+    "path": "conveyor.motor1",
+    "sampling_interval": 10,
+    "data": {
+      "offset": 0.5,
+      "disturbances": [
+        {
+          "disturbance_type": "white_noise",
+          "parameters": {
+            "mean": 0,
+            "std": 0.5
+          }
+        },
+        {
+          "disturbance_type": "random_spike",
+          "parameters": {
+            "probability": 0.2,
+            "spike_range": [
+              -10,
+              10
+            ]
+          }
+        },
+        {
+          "disturbance_type": "drift",
+          "parameters": {
+            "rate": 0.0,
+            "start": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "sensor_identifier": "gear1",
+    "sensor_type": "vibration",
+    "path": "conveyor.motor1",
+    "sampling_interval": 10,
+    "data": {
+      "fault_type": "no_fault"
+    }
+  },
+  {
+    "sensor_identifier": "gear2",
+    "sensor_type": "vibration",
+    "path": "conveyor.motor2",
+    "sampling_interval": 10,
+    "data": {
+      "fault_type": "eccentricity"
+    }
+  },
+  {
+    "sensor_identifier": "gear3",
+    "sensor_type": "vibration",
+    "path": "conveyor.motor3",
+    "sampling_interval": 10,
+    "data": {
+      "fault_type": "missing_tooth"
+    }
+  },
+  {
+    "sensor_identifier": "gear4",
+    "sensor_type": "vibration",
+    "path": "conveyor.motor4",
+    "sampling_interval": 10,
+    "data": {
+      "fault_type": "root_crack"
+    }
+  },
+  {
+    "sensor_identifier": "gear5",
+    "sensor_type": "vibration",
+    "path": "conveyor.motor5",
+    "sampling_interval": 10,
+    "data": {
+      "fault_type": "surface_fault"
+    }
+  },
+  {
+    "sensor_identifier": "gear6",
+    "sensor_type": "vibration",
+    "path": "conveyor.motor6",
+    "sampling_interval": 10,
+    "data": {
+      "fault_type": "tooth_chipped_fault"
+    }
+  },
+  {
+    "sensor_identifier": "engine",
+    "sensor_type": "temperature",
+    "path": "conveyor.engine",
+    "sampling_interval": 10,
+    "data": {
+      "offset": 0.5,
+      "disturbances": [
+        {
+          "disturbance_type": "white_noise",
+          "parameters": {
+            "mean": 0,
+            "std": 0.1
+          }
+        },
+        {
+          "disturbance_type": "random_spike",
+          "parameters": {
+            "probability": 0.2,
+            "spike_range": [
+              -10,
+              10
+            ]
+          }
+        },
+        {
+          "disturbance_type": "drift",
+          "parameters": {
+            "rate": 0.2,
+            "start": 0
+          }
+        }
+      ]
+    }
+  }
+]

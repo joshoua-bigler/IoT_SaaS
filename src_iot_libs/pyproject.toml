@@ -1,0 +1,22 @@
+[project]
+name         = "iot-libs"
+description  = "Internet of Things Libraries"
+authors      = [{name = "Joshoua Bigler"}]
+version      = "0.0.9"
+dependencies = [
+  "grpcio>=1.68.1",
+  "grpcio-tools>=1.67.1",
+  "psycopg[binary,pool]>=3.1.19",
+  "pandas>=2.2.3",
+  "pydantic>=2.9.2",
+  "SQLAlchemy>=2.0.36"
+]
+
+[tool.setuptools]
+package-dir  = { "" = "." }
+packages = { find = { include = ["iot_libs*"] } } 
+package-data = { iot_libs = ["**/*.json"] }
+
+[tool.pytest.ini_options]
+testpaths = ["test"]
+include-package-data = true

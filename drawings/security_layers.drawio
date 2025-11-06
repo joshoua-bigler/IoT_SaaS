@@ -1,0 +1,172 @@
+<mxfile host="65bd71144e">
+    <diagram id="da5IuGy7v9bUNatEoYJQ" name="Page-1">
+        <mxGraphModel dx="1692" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Physical Security Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="31" y="572.5" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Endpoint Security Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="31" y="389" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Identity and Acces Management (IAM ) Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="31" y="150" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="VPN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="289.5" y="460" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Network Security Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="31" y="462.56" width="249" height="29.88" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Application Security Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="31" y="272.5" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Dependency &lt;br&gt;Scanning" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="289.5" y="270" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Data Security Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="31" y="210" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Operation Security Layer" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="31" y="45" width="250" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Monitoring" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="289.5" y="42.5" width="80" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Audit Logs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="382" y="42.5" width="85" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="UFW" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="359.5" y="460" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="TLS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="429.75" y="460" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Firmware &amp;amp; Software Updates" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="289.5" y="386.5" width="130" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="HTTPS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="499.75" y="460" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="ACLs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="569.75" y="460" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Patch Management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="428.5" y="386.5" width="120" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Application &lt;br&gt;Updates" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="388" y="270" width="100" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Dependency Management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="498.25" y="270" width="100" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="UPS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="289.5" y="570" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="DDoS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="639.75" y="460" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="AUTHZ / AUTHN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="289.5" y="150" width="97.5" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="CA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="395" y="150" width="45" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="SSH" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="557" y="386.5" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="CI / CD" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="609" y="270" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Data Backups" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="289.5" y="210" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="RBAC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="150" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="MFA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="448" y="150" width="52.25" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Risk Mangement" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="289.5" y="86" width="110" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="IP Whitelisting" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="429.75" y="505" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="IP Tables" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="289.5" y="505" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="ZTNA" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="359.5" y="505" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="Password Manger" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="681" y="270" width="110" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Secrets Management" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="289.5" y="315" width="90" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="SSH Key Rotation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="627" y="386.5" width="120" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="Data Retention Policy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="388" y="210" width="127.5" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="SSO" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="579.5" y="150" width="60" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="Least Privilege" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="477" y="42.5" width="93" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="Incident Response Plan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="579.5" y="42.5" width="100" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Recovery Plan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="42.5" width="100" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="endArrow=none;dashed=1;html=1;align=left;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="30" y="134" as="sourcePoint"/>
+                        <mxPoint x="800" y="134" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="" style="endArrow=none;dashed=1;html=1;align=left;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="30" y="195" as="sourcePoint"/>
+                        <mxPoint x="800.5000000000002" y="195" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="68" value="" style="endArrow=none;dashed=1;html=1;align=left;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="31" y="255" as="sourcePoint"/>
+                        <mxPoint x="800" y="255" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="" style="endArrow=none;dashed=1;html=1;align=left;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="31" y="370.31" as="sourcePoint"/>
+                        <mxPoint x="800" y="370" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="70" value="" style="endArrow=none;dashed=1;html=1;align=left;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="31" y="441.99999999999994" as="sourcePoint"/>
+                        <mxPoint x="800" y="441" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="72" value="" style="endArrow=none;dashed=1;html=1;align=left;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="30" y="550" as="sourcePoint"/>
+                        <mxPoint x="801" y="552" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="" style="endArrow=none;dashed=1;html=1;align=left;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="30" y="620" as="sourcePoint"/>
+                        <mxPoint x="800" y="620" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

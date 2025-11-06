@@ -1,0 +1,69 @@
+services:
+
+  db:
+    image: timescale/timescaledb-ha:pg17
+    container_name: timescaledb
+    restart: unless-stopped
+    shm_size: 128mb
+    ports:
+      - 50000:5432
+    volumes:
+      - iot_pgdata:/home/postgres/pgdata/data
+    environment:
+      POSTGRES_PASSWORD: 1
+    networks:
+      - iot-net
+
+  mlflow-db:
+    container_name: mlflow-db
+    image: postgres
+    restart: unless-stopped
+    shm_size: 128mb
+    ports:
+      - 5433:5432
+    volumes:
+      - iot_mlflow_db:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: 1
+    networks:
+      - iot-net
+
+
+  mlflow:
+    container_name: mlflow
+    build:
+      context: docker_images/mlfow
+      dockerfile: Dockerfile
+    depends_on:
+      - mlflow-db
+    restart: unless-stopped
+    networks:
+      - iot-net
+    expose:
+      - "5000"
+    ports:
+      - 5000:5000
+    volumes:
+      - iot_mlflow:/opt
+      - iot_mlflow:/mlartifacts
+    command: >
+      mlflow server
+      --host 0.0.0.0
+      --port 5000
+      --backend-store-uri postgresql://postgres:1@mlflow-db:5432/postgres
+
+volumes:
+  iot_pgdata_test:
+    name: iot_pgdata_test
+  iot_pgdata:
+    name: iot_pgdata
+  iot_mlflow:
+    name: iot_mlflow
+  iot_mlflow_db:
+    name: iot_mlflow_db
+
+networks:
+  iot-net:
+    driver: bridge
+
+    
