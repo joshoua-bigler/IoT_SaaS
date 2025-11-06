@@ -21,7 +21,7 @@
     "@mui/icons-material": "^6.4.8",
     "@mui/material": "^6.3.1",
     "@mui/x-charts": "^7.23.6",
-    "axios": "^1.7.9",
+    "axios": "^1.12.0",
     "d3": "^7.9.0",
     "graphql": "^16.10.0",
     "react": "^18.3.1",
