@@ -15,6 +15,7 @@ This project aims to develop an Internet of Things (IoT) platform offered as a S
 - [Device Management API](#device-management-api)
 - [Database](#database)
 - [Documentation](#documentation)
+- [Demonstration Video](#demonstration-video)
 - [References](#references)
 
 ## [Steps to Setup the Project](wiki/setup.md#steps-to-setup-the-project) 
@@ -81,6 +82,9 @@ Looking ahead, Ansible may be introduced for device orchestration and applicatio
 ## Documentation
 - [Distributed IoT Platform](docs/distributed_iot_platform.pdf)
 - [Machine Learning Techniques for Distributed IoT Platform](/docs/Machine%20Learning%20Techniques%20for%20Distributed%20IoT%20Platform.pdf)
+
+## Demonstration Video
+[Machine Learning Techniques for Distributed IoT Platform](/videos/pw2_iot.mp4)
 
 ## References
 - [OWASP Top 10](https://owasp.org/www-project-top-ten/)
