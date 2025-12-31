@@ -81,7 +81,7 @@ Looking ahead, Ansible may be introduced for device orchestration and applicatio
 
 ## Documentation
 - [Distributed IoT Platform](docs/distributed_iot_platform.pdf)
-- [Machine Learning Techniques for Distributed IoT Platform](/docs/Machine%20Learning%20Techniques%20for%20Distributed%20IoT%20Platform.pdf)
+- [Machine Learning Techniques for Distributed IoT Platform](/docs/machine_learning_techniques_for_distributed_iot_platform.pdf)
 
 ## Demonstration Video
 [Machine Learning Techniques for Distributed IoT Platform](/videos/pw2_iot.mp4)
